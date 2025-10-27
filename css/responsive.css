@@ -1,6 +1,9 @@
 .cel{
     display: none;
 }
+.productosCel{
+    display: none;
+}
 
 @media (max-width: 767px) {
     html, body{
@@ -27,12 +30,10 @@
         text-align: center;
         padding: 0.5rem 1rem;
     }
-
     .logoCel img {
         width: 160px;
         height: auto;
     }
-
     .buscadorYcarrito {
         display: flex;
         align-items: center;
@@ -40,13 +41,11 @@
         gap: 0.5rem;
         margin-right: 2rem;
     }
-
     .buscadorCel {
         position: relative;
         flex: 1;
         max-width: 15rem;
     }
-
     .buscadorCel input {
         width: 100%;
         padding: 0.5rem 1rem 0.5rem 2rem;
@@ -55,7 +54,6 @@
         font-size: 1rem;
         outline: none;
     }
-
     .buscadorCel i {
         position: absolute;
         top: 50%;
@@ -63,10 +61,103 @@
         transform: translateY(-50%);
         color: black;
     }
-
     .carritoCel {
         display: flex;
         align-items: center;
         gap: 0.5rem;
+    }
+    .hero{
+        margin: 0.5rem;
+        width: 22rem;
+        margin-top: 1rem;
+    }
+    .hero .slide{
+        display: none;
+    }
+    .productosSect{
+        display: none !important;
+    }
+    .productosCel {
+        width: 90%;
+        padding: 1rem;
+        display: block;
+    }
+    .ofertasCel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .tarjetaCel {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .tarjetaCel img {
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+    .tituloCel p {
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #333;
+        margin: 0.4rem 0;
+    }
+    .precioCel p {
+        color: #0571ed;
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin: 0.3rem 0;
+    }
+    .stockCel span {
+        font-size: 0.75rem;
+        color: #555;
+    }
+    .btnComCel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        margin-top: 0.5rem;
+    }
+    .btnComCel button {
+        background-color: #0571ed;
+        color: #fff;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .btnComCel i {
+        color: #0571ed;
+    }
+    .banners{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 !important;
+        margin-right: 2rem !important;
+    }
+    .banners img{
+        width: 21.2rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+        border-radius: 2rem;
+        margin-bottom: 1rem;
+    }
+    .footer .suscribe{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0571ed;
+        border-radius: 2rem !important;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+        width: 21.2rem;
     }
 }
