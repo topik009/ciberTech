@@ -1,0 +1,148 @@
+.unidad {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.unidad .slide {
+    padding: 10px;
+    width: 30rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 2rem;
+}
+
+.especificaciones {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+
+.especificaciones .esp {
+    flex: 1;
+    padding: 1rem;
+}
+
+.splide__list img {
+    width: 30rem;
+    height: auto;
+    border-radius: 3rem;
+}
+
+.especificaciones .divider {
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.especificaciones .izquierda {
+    text-align: justify;
+}
+
+.especificaciones .derecha ul {
+    padding-left: 1.2rem;
+}
+
+.derecha {
+    width: 40rem;
+    height: 30rem;
+}
+
+.derecha .precio {
+    display: flex;
+    color: red;
+    gap: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.precio span{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: 200;
+}
+
+.derecha .detalle {
+    margin-bottom: 3rem;
+}
+
+.derecha .botones {
+    width: auto;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.botones button {
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 2rem;
+    background-color: #0571ed;
+    border: none;
+    font-size: small;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.botones button:hover {
+    color: white;
+    background-color: green;
+}
+
+
+/* BOTON DE CANTIDAD */
+.contador {
+    border: 1px solid gray;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2rem;
+    background-color: white;
+}
+
+#numero {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 1.5rem;
+    text-align: center;
+    user-select: none;
+}
+
+.contador button {
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.contador button:hover {
+    background-color: #e0e0e0;
+}
+
+.contador button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ----------------------------------------------- */

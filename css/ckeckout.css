@@ -1,0 +1,42 @@
+.ckeckout{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.ckeckout .formulario{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    padding: 2rem;
+    flex: 1.5;
+}
+.formulario input, select, textarea{
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+.pagar{
+    height: 35rem;
+}
+.ckeckout .pagar{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    padding: 2rem;
+    flex: 1;
+}
+.pagar .total{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+.pagar button{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    background-color: #007bff;
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    color: white;
+    font-size: 1.5rem;
+}

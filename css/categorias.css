@@ -1,0 +1,28 @@
+.categorias{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+.categorias .filtro {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.categorias .productoCate {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.filtro a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}

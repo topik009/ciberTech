@@ -1,0 +1,160 @@
+/* 
+1.- TOP 
+2.- NAVBAR 
+3.- HERO
+*/
+
+html, body {
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+/* TOP */
+.top{
+    background-color: #0571ed;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.fles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fles i{
+    color: white;
+}
+.fles span{
+    color: white;
+}
+/* TOP */
+
+/* NAVBAR */
+header{
+    background-color: white;
+    top: 0;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar nav {
+    display: flex;
+    gap: 2rem;
+}
+.navbar nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    gap: 10px;
+}
+.buscador{
+    position: relative;
+    width: 18rem;
+}
+.buscador input {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-size: 1rem;
+    outline: none;
+}
+.buscador i {
+    position: absolute;
+    top: 50%;
+    left: 0.8rem;
+    transform: translateY(-50%);
+    color: black;
+}
+.navbar .carrito{
+    display: flex;
+    gap: 2rem;
+}
+/* NAVBAR */
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 2rem 0 2rem;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.hero .titulo {
+    flex: 1;
+    color: white;
+}
+.hero .titulo h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.hero .titulo .btn{
+    background-color: #0571ed;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: white;
+    width: 8rem;
+    cursor: pointer;
+}
+.hero .slide {
+    flex: 2;
+}
+.hero .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* HERO */
+
+/* BREADCRUMB */
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    padding: 0;
+}
+
+.breadcrumb li {
+    color: black;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #0571ed;
+    font-weight: 500;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: none;
+}
+
+.breadcrumb li + li::before {
+    content: "›";   
+    margin: 0 0.5rem;
+    color: #aaa;
+}
+
+.breadcrumb .active {
+    color: #333;
+    font-weight: 600;
+}
+/* BREADCRUMB */
