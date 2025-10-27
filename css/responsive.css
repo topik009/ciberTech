@@ -1,0 +1,72 @@
+.cel{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    html, body{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .top {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 22rem;
+    }
+    .fles {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .logo, .buscador, .navbar, .carrito{
+        display: none !important;
+    }
+    .cel {
+        display: block;
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+
+    .logoCel img {
+        width: 160px;
+        height: auto;
+    }
+
+    .buscadorYcarrito {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-right: 2rem;
+    }
+
+    .buscadorCel {
+        position: relative;
+        flex: 1;
+        max-width: 15rem;
+    }
+
+    .buscadorCel input {
+        width: 100%;
+        padding: 0.5rem 1rem 0.5rem 2rem;
+        border: 1px solid black;
+        border-radius: 2rem;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    .buscadorCel i {
+        position: absolute;
+        top: 50%;
+        left: 0.8rem;
+        transform: translateY(-50%);
+        color: black;
+    }
+
+    .carritoCel {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
