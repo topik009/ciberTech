@@ -150,6 +150,7 @@
     }
     .footer .suscribe{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         background-color: #0571ed;
@@ -159,5 +160,34 @@
         margin-left: 1rem !important;
         margin-right: 1rem !important;
         width: 21.2rem;
+    }
+    .suscribe .info{
+        flex: 1;
+        color: white;
+        font-size: 0.9rem !important
+    }
+    .email form {
+        position: relative;
+        display: inline-block;
+    }
+    .email input{
+        border-radius: 2rem;
+        border: none;
+        padding: 0.5rem 6rem 0.5rem 1rem;
+        width: 17rem !important;
+        margin-top: 1rem;
+    }
+    .email button {
+        position: absolute;
+        right: -1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: black;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 2rem;
+        border: none;
+        cursor: pointer;
+        margin-top: 0.5rem;
     }
 }
